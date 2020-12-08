@@ -21,12 +21,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 # Inherit from gts4lvwifi device
 $(call inherit-product, device/samsung/gts4lvwifi/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
+# Inherit some common bliss stuff.
+$(call inherit-product, vendor/bliss/config/common_full_tablet_wifionly.mk)
+
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1440
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gts4lvwifi
-PRODUCT_NAME := lineage_gts4lvwifi
+PRODUCT_NAME := bliss_gts4lvwifi
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T720
 PRODUCT_MANUFACTURER := samsung

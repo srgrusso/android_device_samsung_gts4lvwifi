@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_gts4lvwifi.mk
+    $(LOCAL_DIR)/aosp_gts4lvwifi.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_gts4lvwifi-user \
-    lineage_gts4lvwifi-userdebug \
-    lineage_gts4lvwifi-eng
+    aosp_gts4lvwifi-user \
+    aosp_gts4lvwifi-userdebug \
+    aosp_gts4lvwifi-eng

@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_gts4lvwifi.mk
+    $(LOCAL_DIR)/bliss_gts4lvwifi.mk

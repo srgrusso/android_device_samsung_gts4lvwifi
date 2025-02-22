@@ -39,3 +39,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=samsung/gts4lvwifixx/gts4lvwifi:11/RP1A.200720.012/T720XXS3DWA1:user/release-keys \
     DeviceProduct=gts4lvwifixx \
     SystemName=gts4lvwifixx
+
+# Matrixx
+MATRIXX_MAINTAINER := srgrusso
+MATRIXX_CHIPSET := SDM670
+MATRIXX_BATTERY := 7040mAh
+MATRIXX_DISPLAY := 1600x2560
+WITH_GMS := true
